@@ -21,3 +21,4 @@
 - After then created my custom metric in express to read the number of requests to the server and also the response time from the server.
 - Then configured the endpoint named **/metric** and exposed the enpoint to the port **9100** as **Prometheus** listen to the endpoint **/metrics** to scrap the data.
 - Then configured the prometheus.yml file to listen to the port **9100** and created the prometheus server via this configuration file and checked the metrics.
+- Command to run the prometheus server `sudo ./prometheus --config.file=prometheus.yml`
