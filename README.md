@@ -22,3 +22,17 @@
 - Then configured the endpoint named **/metric** and exposed the enpoint to the port **9100** as **Prometheus** listen to the endpoint **/metrics** to scrap the data.
 - Then configured the prometheus.yml file to listen to the port **9100** and created the prometheus server via this configuration file and checked the metrics.
 - Command to run the prometheus server `sudo ./prometheus --config.file=prometheus.yml`
+
+---
+
+## Screenshot of the backend running as mentioned.
+
+![image](https://user-images.githubusercontent.com/82467006/219878075-f9a7fce9-b401-46ce-afb6-da662d45b9b9.png)
+
+## Scrreenshot of the prometheus server scraping the metrics through exposed endpoint
+
+![image](https://user-images.githubusercontent.com/82467006/219878441-b33558e0-0a49-4d05-926b-b4be8929e2eb.png)
+
+![image](https://user-images.githubusercontent.com/82467006/219878477-ad9e43e5-1fb1-4436-a64f-1aa4bc090b84.png)
+
+
