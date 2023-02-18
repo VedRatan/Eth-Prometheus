@@ -1,13 +1,13 @@
 # Task-1 
-## To create a backend that fetched the account transactions from EtherScan and put it in MongoDB
+## To create a backend that fetches the account transactions from EtherScan and put it in MongoDB
 
 ---
 
 - Followed the **RCM Architecture** to make our express app more scalable and also modularised the app so that it look clean.
-- First of all created a cluster on MongoDb cloud for storing the data.
+- First of all created a cluster on MongoDB cloud for storing the data.
 - Initialized our node app with **Express** framework and also installed some other library like nodemon for auto rendering on  changes and also mongoose for handling mongodb related tasks and dotenv to use environment variables in our app.
 - Also I've saved nodemon as a dev dependency as we don't need it at production level.
-
+- Then defined the endpoints using **RCM Architecture** and exposed the app on the port **5000** with the endpoint **/api/transactions/<address>?<page>**
 
 
 
