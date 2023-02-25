@@ -5,13 +5,8 @@ require("./config/db")
 const routes = require("./routes")
 const prometheus = require("./prometheus")
 
-<<<<<<< HEAD
 const app = express()
 const PORT = process.env.PORT || 5000
-=======
-const app = Express()
-const PORT = process.env.PORT || 3000
->>>>>>> eacac75cdc4ba54127b0d20784696ff590c3c3f0
 
 
 prometheus.startMetricsServer(app)
