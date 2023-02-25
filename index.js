@@ -1,11 +1,11 @@
 require("dotenv").config()
-const Express = require("express")
+const express = require("express")
 
 require("./config/db")
 const routes = require("./routes")
 const prometheus = require("./prometheus")
 
-const app = Express()
+const app = express()
 const PORT = process.env.PORT || 5000
 
 
